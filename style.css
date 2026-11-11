@@ -50,8 +50,38 @@ header nav ul .cart:hover{
     transform: rotate(-25deg);
     transition: 0.5s;
 }
+header nav .mobile i{
+    font-size: 22px;
+    margin-right: 100px;
+}
 
-
+@media (max-width: 600px){
+    header nav ul{
+        display: none;
+    }
+    nav{
+        padding: 10px 20px;
+    }
+    header nav img{
+        margin-left: -40px;
+    }
+}
+@media (min-width: 601px){
+    .mobile{
+        display: none;
+        
+    }
+}
+@media (min-width: 601px) and (max-width: 800px){
+    header nav{
+        padding: 20px 40px;
+    }
+    header nav ul{
+        gap: 30px;
+        font-size: 18px;
+        padding: 0px 40px;
+    }
+}
 /*##################   hero-section    ########################### */
 
 .hero {
@@ -102,6 +132,47 @@ header nav ul .cart:hover{
     font-size: 20px;
 }
 
+@media (max-width: 600px){
+    .hero{
+        background-position: top 30% right 30%;
+    }
+    .hero div .p1{
+        font-size: 20px;
+    }
+    .hero div h1{
+        font-size: 30px;
+    }
+    .hero div .p2{
+        font-size: 15px;
+    }
+    .hero div button{
+        font-size: 15px;
+        padding: 10px 40px;
+    }
+    .hero div{
+        padding-top: 30%;
+        padding-left: 40px;
+    }
+}
+@media (min-width: 601px) and (max-width: 800px){
+    .hero{
+        background-position: top 30% right 30%;
+    }
+    .hero div .p1{
+        font-size: 25px;
+    }
+    .hero div h1{
+        font-size: 40px;
+    }
+    .hero div .p2{
+        font-size: 18px;
+    }
+    .hero div button{
+        font-size: 18px;
+        padding: 18px 80px;
+    }
+}
+
 /* ################# feautures  ############################################# */
 
 .features .box{
@@ -147,6 +218,37 @@ header nav ul .cart:hover{
 }
 .features .box div .p6{
     background-color: #FFF2E5;
+}
+
+@media (max-width: 600px){
+    .features .box{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        padding: 0px 100px;
+        margin-right: 130px;
+    }
+    .features .box div{
+        width: 200px
+    }
+    .features .box div p{
+        font-size: 15px;
+    }
+}
+@media (min-width: 601px) and (max-width: 800px){
+    .features .box{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        padding: 0px 40px;
+        margin-left: 15px;
+    }
+    .features .box div{
+        width: 200px
+    }
+    .features .box div p{
+        font-size: 15px;
+    }
 }
 
 /* ############## products ################################# */
@@ -258,6 +360,92 @@ header nav ul .cart:hover{
     transition: 0.3s;
 }
 
+
+@media (max-width: 600px){
+    .products .head h1{
+        font-size: 30px;
+        margin-right: 120px;
+    }
+    .products .head p{
+        font-size: 16px;
+        margin-right: 110px;
+    }
+    .products .cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        width: 400px;
+        margin: 50px 40px;
+    }
+    .products img{
+        width: 180px;
+    }
+    .products .cards div{
+        width: 180px;
+        height: 380px;
+    }
+    .products .cards .description button{
+        margin-left: 90px;
+    }
+    .products .cards .description h2{
+        font-size: 15px;
+    }
+    .products .cards .description p{
+        font-size: 12px;
+    }
+    .products .cards .description i{
+        font-size: 14px;
+    }
+    .products .cards .description button i{
+        font-size: 18px;
+    }
+    .products .cards .description h3{
+        font-size: 18px;
+    }
+}
+@media (min-width: 601px) and (max-width: 800px){
+    .products .head h1{
+        font-size: 35px;
+        margin-right: 60px;
+    }
+    .products .head p{
+        font-size: 16px;
+        margin-right: 60px;
+    }
+    .products .cards{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 30px;
+        width: 600px;
+        margin: 50px 60px;
+    }
+    .products img{
+        width: 200px;
+    }
+    .products .cards div{
+        width: 200px;
+        height: 380px;
+    }
+    .products .cards .description button{
+        margin-left: 120px;
+    }
+    .products .cards .description h2{
+        font-size: 15px;
+    }
+    .products .cards .description p{
+        font-size: 12px;
+    }
+    .products .cards .description i{
+        font-size: 14px;
+    }
+    .products .cards .description button i{
+        font-size: 18px;
+    }
+    .products .cards .description h3{
+        font-size: 18px;
+    }
+}
+
 /* ################ offer section ######################################## */
 
 .offer{
@@ -302,6 +490,45 @@ header nav ul .cart:hover{
     color: white;
     transition: 0.5s;
 }
+
+@media (max-width: 600px){
+    .offer{
+        height: 180px;
+    }
+    .offer .mid p{
+        font-size: 14px;
+        padding-right: 100px;
+    }
+    .offer .mid h1{
+        font-size: 18px;
+        padding-right: 130px;
+    }
+    .offer .mid button{
+        padding: 8px 8px;
+        font-size: 13px;
+        margin-right: 100px;
+    }
+}
+@media (min-width: 601px) and (max-width: 800px){
+    .offer{
+        height: 250px;
+    }
+    .offer .mid p{
+        font-size: 18px;
+        padding-right: 60px;
+    }
+    .offer .mid h1{
+        font-size: 30px;
+        padding-right: 15px;
+    }
+    .offer .mid button{
+        padding: 15px 15px;
+        font-size: 15px;
+        margin-right: 60px;
+        margin-top: 40px;
+    }
+}
+
 /* ################# New-section##################################### */
 
 .new .head2{
@@ -411,6 +638,91 @@ header nav ul .cart:hover{
     transition: 0.3s;
 }
 
+@media (max-width: 600px){
+    .new .head2 h1{
+        font-size: 30px;
+        margin-right: 100px;
+    }
+    .new .head2 p{
+        font-size: 16px;
+        margin-right: 95px;
+    }
+    .new .cards2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        width: 400px;
+        margin: 50px 40px;
+    }
+    .new img{
+        width: 180px;
+    }
+    .new .cards2 div{
+        width: 180px;
+        height: 380px;
+    }
+    .new .cards2 .description button{
+        margin-left: 90px;
+    }
+    .new .cards2 .description h2{
+        font-size: 15px;
+    }
+    .new .cards2 .description p{
+        font-size: 12px;
+    }
+    .new .cards2 .description i{
+        font-size: 14px;
+    }
+    .new .cards2 .description button i{
+        font-size: 18px;
+    }
+    .new .cards2 .description h3{
+        font-size: 18px;
+    }
+}
+@media (min-width: 601px) and (max-width: 800px){
+    .new .head2 h1{
+        font-size: 35px;
+        margin-right: 60px;
+    }
+    .new .head2 p{
+        font-size: 16px;
+        margin-right: 60px;
+    }
+    .new .cards2{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 30px;
+        width: 600px;
+        margin: 50px 60px;
+    }
+    .new img{
+        width: 200px;
+    }
+    .new .cards2 div{
+        width: 200px;
+        height: 380px;
+    }
+    .new .cards2 .description button{
+        margin-left: 120px;
+    }
+    .new .cards2 .description h2{
+        font-size: 15px;
+    }
+    .new .cards2 .description p{
+        font-size: 12px;
+    }
+    .new .cards2 .description i{
+        font-size: 14px;
+    }
+    .new .cards2 .description button i{
+        font-size: 18px;
+    }
+    .new .cards2 .description h3{
+        font-size: 18px;
+    }
+}
+
 /* ################## banner-section ####################################################### */
 
 .banner{
@@ -493,6 +805,64 @@ header nav ul .cart:hover{
     transition: 0.6s;
     border: none;
 } 
+
+@media (max-width: 600px){
+    .banner .big{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        width: 400px;
+        margin-right: 120px;
+        margin-bottom: 150px;
+        margin-top: 50px
+    }
+    .banner .big .ban1,
+    .banner .big .ban2{
+        height: 260px;
+        padding: 50px 20px;
+    }
+    .banner .big .ban1 h1,
+    .banner .big .ban2 h1{
+        font-size: 18px;
+    }
+    .banner .big .ban1 button,
+    .banner .big .ban2 button{
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    .banner .big .ban1 .up,
+    .banner .big .ban2 .up{
+        font-size: 22px;
+    }
+}
+@media (min-width: 601px) and (max-width: 800px){
+    .banner .big{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        width: 700px;
+        margin-right: 5px;
+        margin-top: 90px;
+    }
+    .banner .big .ban1,
+    .banner .big .ban2{
+        height: 350px;
+        padding: 50px 20px;
+    }
+    .banner .big .ban1 h1,
+    .banner .big .ban2 h1{
+        font-size: 25px;
+    }
+    .banner .big .ban1 button,
+    .banner .big .ban2 button{
+        padding: 15px 30px;
+        font-size: 15px;
+    }
+    .banner .big .ban1 .up,
+    .banner .big .ban2 .up{
+        font-size: 22px;
+    }
+}
 /* #################### banner-2 ####################################### */
 
 .banner2{
@@ -590,6 +960,60 @@ header nav ul .cart:hover{
     color: #EC544E;
     font-weight: 800;
 }
+
+@media (max-width: 600px){
+    .banner2 .big2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        width: 400px;
+        margin-right: 216px;
+        margin-bottom: 400px;
+    }
+    .banner2 .big2 .ban3,
+    .banner2 .big2 .ban4,
+    .banner2 .big2 .ban5{
+        height: 250px;
+        width: 420px;
+        padding: 50px 20px;
+    }
+    .banner2 .big2 .ban3 h1,
+    .banner2 .big2 .ban4 h1,
+    .banner2 .big2 .ban5 h1{
+        font-size: 18px;
+        padding-left: 20px;
+    }
+    .banner2 .big2 .down{
+        padding-left: 20px;
+    }
+}
+@media (min-width: 601px) and (max-width: 800px){
+    .banner2 .big2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        width: 900px;
+        margin-left: 50px;
+        margin-bottom: 500px;
+    }
+    .banner2 .big2 .ban3,
+    .banner2 .big2 .ban4,
+    .banner2 .big2 .ban5{
+        height: 300px;
+        width: 600px;
+        padding: 50px 20px;
+    }
+    .banner2 .big2 .ban3 h1,
+    .banner2 .big2 .ban4 h1,
+    .banner2 .big2 .ban5 h1{
+        font-size: 25px;
+        padding-left: 20px;
+    }
+    .banner2 .big2 .down{
+        padding-left: 20px;
+    }
+}
+
 /* ################## line-section ########################################### */
 
 .line{
@@ -636,6 +1060,72 @@ header nav ul .cart:hover{
     background-color: #088178;
     color: white;
 }
+
+
+@media (max-width: 600px){
+    .line{
+        height: 200px;
+        padding: 20px 20px;
+    }
+    .line h2{
+        font-size: 18px;
+        margin-left: 100px;
+    }
+    .line h3{
+        font-size: 14px;
+    }
+    .line .enter{
+        position: relative;
+        bottom: 0px;
+        left: 0%;
+        margin-top: 20px;
+    }
+    .line .enter input{
+        width: 200px;
+        height: 30px;
+        font-size: 12px;
+        padding: 10px 10px;
+        margin-left: 70px;
+    }
+    .line .enter button{
+        font-size: 12px;
+        padding: 9px 10px;
+        margin-left: 2px;
+    }
+}
+@media (min-width: 601px) and (max-width: 800px){
+    .line{
+        height: 200px;
+        padding: 20px 20px;
+    }
+    .line h2{
+        font-size: 25px;
+        margin-left: 230px;
+    }
+    .line h3{
+        font-size: 16px;
+        margin-left: 150px;
+    }
+    .line .enter{
+        position: relative;
+        bottom: 0px;
+        left: 0%;
+        margin-top: 20px;
+    }
+    .line .enter input{
+        width: 300px;
+        height: 40px;
+        font-size: 14px;
+        padding: 10px 10px;
+        margin-left: 200px;
+    }
+    .line .enter button{
+        font-size: 14px;
+        padding: 12px 15px;
+        margin-left: 2px;
+    }
+}
+
 /* ############## footer ############################################ */
 
 footer img{
@@ -718,3 +1208,84 @@ footer h4{
     padding: 20px 50px;
     padding-left: 43%;
 }
+
+@media (max-width: 600px){
+    footer .foot{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        padding: 0px 50px;
+    }
+    footer img{
+        width: 150px;
+        margin-left: 100px;
+    }
+    footer .foot .contact{
+        bottom: 0px;
+    }
+    footer .About{
+        bottom: 0px;
+        left: 0px;
+    }
+    footer .My-Account{
+        bottom: 0px;
+    }
+    footer .install{
+        margin-top: 20px;
+        margin-right: 100px;
+    }
+    footer .foot .contact h2,
+    footer .About h2,
+    footer .My-Account h2,
+    footer .install h2{
+        font-size: 18px;
+    }
+    footer .foot .contact h3{
+        font-size: 14px;
+    }
+    footer h4{
+        padding: 20px 50px;
+        padding-left: 20%;
+        font-size: 12px;
+    }
+}
+@media (min-width: 601px) and (max-width: 800px){
+    footer .foot{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        padding: 0px 50px;
+    }
+    footer img{
+        width: 200px;
+        margin-left: 50px;
+    }
+    footer .foot .contact{
+        bottom: 0px;
+    }
+    footer .About{
+        bottom: 0px;
+        left: 0px;
+    }
+    footer .My-Account{
+        bottom: 0px;
+    }
+    footer .install{
+        margin-top: 20px;
+        margin-right: 50px;
+    }
+    footer .foot .contact h2,
+    footer .About h2,
+    footer .My-Account h2,
+    footer .install h2{
+        font-size: 18px;
+    }
+    footer .foot .contact h3{
+        font-size: 14px;
+    }
+    footer h4{
+        padding: 20px 50px;
+        padding-left: 36%;
+        font-size: 12px;
+    }
+}        
