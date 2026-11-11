@@ -498,6 +498,8 @@ header nav .mobile i{
 @media (max-width: 600px){
     .offer{
         height: 180px;
+        width: 600px;
+        
     }
     .offer .mid p{
         font-size: 14px;
@@ -516,6 +518,7 @@ header nav .mobile i{
 @media (min-width: 601px) and (max-width: 800px){
     .offer{
         height: 200px;
+        width: 610px;
     }
     .offer .mid p{
         font-size: 15px;
@@ -1072,6 +1075,7 @@ header nav .mobile i{
     .line{
         height: 200px;
         padding: 20px 20px;
+        width: 600px;
     }
     .line h2{
         font-size: 18px;
@@ -1104,7 +1108,7 @@ header nav .mobile i{
     .line{
         height: 200px;
         padding: 20px 20px;
-        width: 605px;
+        width: 610px;
     }
     .line h2{
         font-size: 20px;
@@ -1301,5 +1305,6 @@ footer h4{
         padding: 20px 50px;
         padding-left: 30%;
         font-size: 12px;
+        width: 620px;
     }
 }        
