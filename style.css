@@ -226,16 +226,17 @@ header nav .mobile i{
 @media (max-width: 600px){
     .features .box{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        gap: 10px;
-        padding: 0px 100px;
-        margin-right: 15px;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        padding: 0px;
+        margin-left: 170px;
     }
     .features .box div{
-        width: 200px
+        width: 250px
     }
     .features .box div p{
         font-size: 13px;
+        padding: 20px 30px;
     }
 }
 @media (min-width: 601px) and (max-width: 800px){
@@ -243,11 +244,11 @@ header nav .mobile i{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         gap: 20px;
-        padding: 0px 40px;
-        margin-left: 15px;
+        padding: 0px 20px;
+        margin-left: 0px;
     }
     .features .box div{
-        width: 170px
+        width: 150px
     }
     .features .box div p{
         font-size: 15px;
@@ -375,20 +376,21 @@ header nav .mobile i{
     }
     .products .cards{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
         gap: 20px;
-        width: 400px;
-        margin: 50px 100px;
+        width: 150px;
+        margin: 50px 150px;
     }
     .products img{
-        width: 180px;
+        width: 250px;
+        margin-left: 15px;
     }
     .products .cards div{
-        width: 180px;
-        height: 380px;
+        width: 280px;
+        height: 420px;
     }
     .products .cards .description button{
-        margin-left: 90px;
+        margin-left: 180px;
     }
     .products .cards .description h2{
         font-size: 15px;
@@ -419,19 +421,19 @@ header nav .mobile i{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         gap: 10px;
-        width: 400px;
+        width: 530px;
         margin: 50px 20px;
     }
     .products img{
-        width: 170px;
+        width: 155px;
         margin-left: 5px;
     }
     .products .cards div{
-        width: 185px;
-        height: 365px;
+        width: 170px;
+        height: 350px;
     }
     .products .cards .description button{
-        margin-left: 100px;
+        margin-left: 80px;
     }
     .products .cards .description h2{
         font-size: 15px;
@@ -498,8 +500,7 @@ header nav .mobile i{
 @media (max-width: 600px){
     .offer{
         height: 180px;
-        width: 600px;
-        
+        width: 100%;
     }
     .offer .mid p{
         font-size: 14px;
@@ -518,7 +519,7 @@ header nav .mobile i{
 @media (min-width: 601px) and (max-width: 800px){
     .offer{
         height: 200px;
-        width: 610px;
+        width: 590px;
     }
     .offer .mid p{
         font-size: 15px;
@@ -656,20 +657,21 @@ header nav .mobile i{
     }
     .new .cards2{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
         gap: 20px;
-        width: 400px;
-        margin: 50px 100px;
+        width: 150px;
+        margin: 50px 150px;
     }
     .new img{
-        width: 180px;
+        width: 250px;
+        margin-left: 15px;
     }
     .new .cards2 div{
-        width: 180px;
-        height: 380px;
+        width: 280px;
+        height: 420px;
     }
     .new .cards2 .description button{
-        margin-left: 90px;
+        margin-left: 180px;
     }
     .new .cards2 .description h2{
         font-size: 15px;
@@ -693,25 +695,26 @@ header nav .mobile i{
         margin-left: 55px;
     }
     .new .head2 p{
-        font-size: 16px;
+        font-size: 15px;
         margin-left: 50px;
     }
     .new .cards2{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         gap: 10px;
-        width: 600px;
-        margin: 50px 15px;
+        width: 530px;
+        margin: 50px 20px;
     }
     .new img{
-        width: 170px;
+        width: 155px;
+        margin-left: 10px;
     }
     .new .cards2 div{
-        width: 175px;
-        height: 365px;
+        width: 170px;
+        height: 360px;
     }
     .new .cards2 .description button{
-        margin-left: 100px;
+        margin-left: 80px;
     }
     .new .cards2 .description h2{
         font-size: 15px;
@@ -818,8 +821,8 @@ header nav .mobile i{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         gap: 20px;
-        width: 400px;
-        margin-right: 10px;
+        width: 500px;
+        margin-right: 0px;
         margin-bottom: 150px;
         margin-top: 50px
     }
@@ -974,15 +977,15 @@ header nav .mobile i{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         gap: 20px;
-        width: 400px;
-        margin-right: 110px;
+        width: 100%;
+        margin-right: 0px;
         margin-bottom: 400px;
     }
     .banner2 .big2 .ban3,
     .banner2 .big2 .ban4,
     .banner2 .big2 .ban5{
         height: 250px;
-        width: 420px;
+        width: 100%;
         padding: 50px 20px;
     }
     .banner2 .big2 .ban3 h1,
@@ -1000,8 +1003,8 @@ header nav .mobile i{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         gap: 20px;
-        width: 400px;
-        margin-right: 265px;
+        width: 100%;
+        margin-right: 0px;
         margin-bottom: 500px;
         margin-top: 100px
     }
@@ -1009,7 +1012,7 @@ header nav .mobile i{
     .banner2 .big2 .ban4,
     .banner2 .big2 .ban5{
         height: 300px;
-        width: 600px;
+        width: 100%;
         padding: 50px 20px;
     }
     .banner2 .big2 .ban3 h1,
@@ -1075,15 +1078,15 @@ header nav .mobile i{
     .line{
         height: 200px;
         padding: 20px 20px;
-        width: 600px;
+        width: 100%;
     }
     .line h2{
         font-size: 18px;
-        margin-left: 160px;
+        margin-left: 0px;
     }
     .line h3{
         font-size: 14px;
-        margin-left: 60px;
+        margin-left: 0px;
     }
     .line .enter{
         position: relative;
@@ -1096,7 +1099,7 @@ header nav .mobile i{
         height: 30px;
         font-size: 12px;
         padding: 10px 10px;
-        margin-left: 140px;
+        margin-left: 0px;
     }
     .line .enter button{
         font-size: 12px;
@@ -1108,7 +1111,7 @@ header nav .mobile i{
     .line{
         height: 200px;
         padding: 20px 20px;
-        width: 610px;
+        width: 100%;
     }
     .line h2{
         font-size: 20px;
@@ -1230,7 +1233,7 @@ footer h4{
     }
     footer img{
         width: 150px;
-        margin-left: 100px;
+        margin-left: 50px;
     }
     footer .foot .contact{
         bottom: 0px;
@@ -1305,6 +1308,6 @@ footer h4{
         padding: 20px 50px;
         padding-left: 30%;
         font-size: 12px;
-        width: 620px;
+        width: 590px;
     }
-}        
+}
