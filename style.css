@@ -229,7 +229,7 @@ header nav .mobile i{
         grid-template-columns: repeat(1,1fr);
         gap: 20px;
         padding: 0px;
-        margin-left: 170px;
+        justify-items: center;
     }
     .features .box div{
         width: 250px
@@ -274,7 +274,7 @@ header nav .mobile i{
     margin-top: 15px;
 }
 .products img{
-    width: 400px;
+    width: 100%;
     border-radius: 40px;
     padding: 15px 15px;
 }
@@ -317,8 +317,9 @@ header nav .mobile i{
     border: none;
     background-color: #eff7f0;
     outline: 1px solid #CDEBBC;
-    margin-left: 280px;
+    margin-left: auto;
     margin-bottom: 20px;
+    display: block;
 }
 .products .cards .description button:hover,
 .products .cards .description button i:hover{
@@ -378,8 +379,9 @@ header nav .mobile i{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         gap: 20px;
-        width: 150px;
-        margin: 50px 150px;
+        width: 100%;
+        margin: 50px 0;
+        justify-items: center;
     }
     .products img{
         width: 250px;
@@ -556,7 +558,7 @@ header nav .mobile i{
     margin-top: 15px;
 }
 .new img{
-    width: 400px;
+    width: 100%;
     border-radius: 40px;
     padding: 15px 15px;
 }
@@ -659,8 +661,9 @@ header nav .mobile i{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         gap: 20px;
-        width: 150px;
-        margin: 50px 150px;
+        width: 100%;
+        margin: 50px 0;
+        justify-items: center;
     }
     .new img{
         width: 250px;
@@ -1049,7 +1052,8 @@ header nav .mobile i{
 .line .enter{
     position: relative;
     bottom: 45px;
-    left: 65%;
+    margin-left: auto;
+    width: fit-content;
 }
 .line .enter input{
     height: 50px;
